@@ -3,6 +3,7 @@ import {APP_ID, Inject, NgModule, PLATFORM_ID} from '@angular/core';
 
 import {AppComponent} from './app.component';
 import {isPlatformBrowser} from '@angular/common';
+import {NgxDatatableModule} from '@swimlane/ngx-datatable';
 
 @NgModule({
   declarations: [
@@ -10,6 +11,7 @@ import {isPlatformBrowser} from '@angular/common';
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'example' }),
+    NgxDatatableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
