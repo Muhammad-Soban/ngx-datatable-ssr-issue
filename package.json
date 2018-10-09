@@ -29,6 +29,8 @@
     "@nguniversal/module-map-ngfactory-loader": "^6.1.0",
     "@swimlane/ngx-datatable": "^13.1.0",
     "core-js": "^2.5.4",
+    "localstorage-polyfill": "^1.0.1",
+    "mock-browser": "^0.92.14",
     "rxjs": "~6.2.0",
     "ts-loader": "^5.2.1",
     "zone.js": "~0.8.26"
